@@ -71,7 +71,7 @@ button { font: inherit; }
   position: relative;
   background:
     linear-gradient(90deg, rgba(11,8,6,.86) 0%, rgba(11,8,6,.58) 45%, rgba(11,8,6,.15) 100%),
-    url('images/meat-platter-1.jpg') center/cover;
+    url('meat-platter-1.jpg') center/cover;
   color: white;
 }
 .hero-content { position: relative; z-index: 1; padding-top: 65px; }
