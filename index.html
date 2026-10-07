@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ember & Grill — premium grilled meat, hearty plates and delicious sides.">
+  <title>Ember & Grill | Meat Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="home">
+    <nav class="navbar container">
+      <a href="#home" class="logo"><span>EMBER</span> & GRILL</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#menu" class="nav-button">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">FIRE-GRILLED • FRESH • FLAVORFUL</p>
+        <h1>Good meat.<br><span>Great moments.</span></h1>
+        <p class="hero-text">
+          Juicy cuts, smoky grills and bold homemade flavors prepared for people
+          who take good food seriously.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="button button-primary">Explore Our Menu</a>
+          <a href="#about" class="button button-outline">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="specials section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">TODAY'S SPECIALS</p>
+            <h2>Made for meat lovers</h2>
+          </div>
+          <p>Six delicious choices, grilled with care and served hot.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="food-card">
+            <div class="food-image"><img src="images/meat-platter-1.jpg" alt="Grilled mixed meat platter"></div>
+            <div class="food-info">
+              <div class="food-title"><h3>Ember Mixed Grill</h3><span>₦18,500</span></div>
+              <p>Assorted grilled meats, potatoes, fresh herbs and our signature sauce.</p>
+              <button class="order-btn" data-item="Ember Mixed Grill">Order Now <span>→</span></button>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-image"><img src="images/meat-platter-2.jpg" alt="Sliced grilled meat with roasted vegetables"></div>
+            <div class="food-info">
+              <div class="food-title"><h3>Smoked Beef Plate</h3><span>₦16,000</span></div>
+              <p>Tender smoked beef served with roasted vegetables and baby potatoes.</p>
+              <button class="order-btn" data-item="Smoked Beef Plate">Order Now <span>→</span></button>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-image"><img src="images/meat-platter-1.jpg" alt="Grilled lamb and beef selection"></div>
+            <div class="food-info">
+              <div class="food-title"><h3>Signature Lamb Rack</h3><span>₦21,000</span></div>
+              <p>Charred lamb rack finished with fresh herbs and a rich dipping sauce.</p>
+              <button class="order-btn" data-item="Signature Lamb Rack">Order Now <span>→</span></button>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-image"><img src="images/meat-platter-2.jpg" alt="Roasted beef with colorful peppers"></div>
+            <div class="food-info">
+              <div class="food-title"><h3>Roasted Beef Feast</h3><span>₦19,500</span></div>
+              <p>Slow-roasted beef slices paired with smoky peppers and roasted potatoes.</p>
+              <button class="order-btn" data-item="Roasted Beef Feast">Order Now <span>→</span></button>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-image"><img src="images/meat-platter-1.jpg" alt="Juicy grilled steak platter"></div>
+            <div class="food-info">
+              <div class="food-title"><h3>Classic Steak Board</h3><span>₦22,000</span></div>
+              <p>Juicy grilled steak, crispy potatoes, herb topping and house sauce.</p>
+              <button class="order-btn" data-item="Classic Steak Board">Order Now <span>→</span></button>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-image"><img src="images/meat-platter-2.jpg" alt="Grilled meat and roasted sides"></div>
+            <div class="food-info">
+              <div class="food-title"><h3>Firehouse Sharing Tray</h3><span>₦25,000</span></div>
+              <p>A generous tray of grilled meat and roasted sides, perfect for sharing.</p>
+              <button class="order-btn" data-item="Firehouse Sharing Tray">Order Now <span>→</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="about">
+      <div class="container story-grid">
+        <div class="story-image">
+          <img src="images/meat-platter-1.jpg" alt="Ember and Grill meat platter">
+          <div class="experience-badge"><strong>10+</strong><span>YEARS OF<br>FLAVOR</span></div>
+        </div>
+        <div class="story-content">
+          <p class="eyebrow dark">OUR STORY</p>
+          <h2>From the grill<br>to your table.</h2>
+          <p>
+            At Ember & Grill, we believe great meat starts with quality ingredients,
+            proper seasoning and a hot grill. Every plate is prepared to order so
+            you get the smoky aroma, juicy texture and bold flavor we are known for.
+          </p>
+          <p>
+            Whether it is a quick dinner, a family gathering or a weekend celebration,
+            our table is always ready.
+          </p>
+          <a href="#contact" class="text-link">Visit us today <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow">COME HUNGRY</p>
+          <h2>Your next favorite meal is on the grill.</h2>
+        </div>
+        <div class="contact-details">
+          <p><strong>Location</strong><br>12 Grill House Avenue, Lagos</p>
+          <p><strong>Opening Hours</strong><br>Mon–Sun • 11:00 AM – 10:00 PM</p>
+          <p><strong>Call</strong><br>+234 800 123 4567</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo"><span>EMBER</span> & GRILL</a>
+      <p>© <span id="year"></span> Ember & Grill. All rights reserved.</p>
+      <p>Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
